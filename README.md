@@ -1,4 +1,4 @@
-latitune-haskell
+latitune
 ================
 
 Location-based song dropping

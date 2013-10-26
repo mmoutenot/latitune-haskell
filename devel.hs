@@ -1,5 +1,5 @@
 {-# LANGUAGE PackageImports #-}
-import "latitune-haskell" Application (getApplicationDev)
+import "latitune" Application (getApplicationDev)
 import Network.Wai.Handler.Warp
     (runSettings, defaultSettings, settingsPort)
 import Control.Concurrent (forkIO)

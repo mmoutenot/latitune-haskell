@@ -1,24 +1,24 @@
 Default: &defaults
-  user: latitune-haskell
-  password: latitune-haskell
+  user: latitune
+  password: latitune
   host: localhost
   port: 5432
-  database: latitune-haskell
+  database: latitune
   poolsize: 10
 
 Development:
   <<: *defaults
 
 Testing:
-  database: latitune-haskell_test
+  database: latitune_test
   <<: *defaults
 
 Staging:
-  database: latitune-haskell_staging
+  database: latitune_staging
   poolsize: 100
   <<: *defaults
 
 Production:
-  database: latitune-haskell_production
+  database: latitune_production
   poolsize: 100
   <<: *defaults

@@ -1,4 +1,4 @@
-exec: ../dist/build/latitune-haskell/latitune-haskell
+exec: ../dist/build/latitune/latitune
 args:
     - production
 host: <<HOST-NOT-SET>>
